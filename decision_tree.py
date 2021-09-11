@@ -64,6 +64,7 @@ Y = [0] * len(db)
 # 1 for Yes
 # 0 for No
 for count, i in enumerate(db):
+    1
     if(i[len(i)-1] == "Yes"):
         Y[count] = 0
     else:
