@@ -55,7 +55,6 @@ for i in db:
                 row.append(1)
             elif (x == "Normal"):
                 row.append(2)
-    print(row)
     X.append(row)
 
 
@@ -69,8 +68,6 @@ for count, i in enumerate(db):
         Y[count] = 0
     else:
         Y[count] = 1
-
-
 # fitting the decision tree to the data
 
 clf = tree.DecisionTreeClassifier(criterion='entropy')
